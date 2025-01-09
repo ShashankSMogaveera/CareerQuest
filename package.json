@@ -1,0 +1,11 @@
+{
+  "name": "careerquest",
+  "version": "1.0.0",
+  "description": "A Backend services which offers companies to register their job openings and job seekers to apply to those openings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
