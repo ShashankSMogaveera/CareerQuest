@@ -6,7 +6,7 @@ const Oppportunities = Sequelize.define('Oppportunities',{
         type:DataTypes.UUID,
         defaultValue: UUIDV4,
         primaryKey: true
-    },
+    },   
     employer_id:{
         type: DataTypes.UUID,
         allowNull: false,

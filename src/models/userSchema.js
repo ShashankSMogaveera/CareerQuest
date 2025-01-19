@@ -20,10 +20,6 @@ const Users = sequelize.define('Users',{
         type: DataTypes.STRING,
         allowNull: false,
     },
-    resume: {
-        type: DataTypes.BLOB,
-        allowNull: true
-    }, 
     phoneNumber:{
         type: DataTypes.STRING,
         allowNull: false,
@@ -33,7 +29,11 @@ const Users = sequelize.define('Users',{
         type: DataTypes.ENUM('employee', 'employer', 'admin'),
         allowNull: false,
         defaultValue: "employee"
-    }
+    },
+    resume: {
+        type: DataTypes.BLOB,
+        allowNull: true
+    }, 
 }, {
     timestamps: true
 })
